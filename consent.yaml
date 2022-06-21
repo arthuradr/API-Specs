@@ -654,6 +654,9 @@ components:
         dataHolderBrandId:
           type: string
           example: f632041c-d7c8-4679-a165-aa406cd62b13
+        dataHolderLogoUri:
+          type: string
+          example: https://www.abank.com.au/logo
         useCase:
           $ref: '#/components/schemas/UseCaseResponse'
         postUsageAction:
